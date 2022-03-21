@@ -27,36 +27,70 @@ function App() {
       <Row className="justify-content-center">
         <Col md="12">
           <h2 className="text-center">Sobre</h2>
-          <p className="text-center">Estudante de programação auto-didata. Procuro uma oportunidade de utilizar meu conhecimento adquirido em um ambiente profissional, e consequentemente, desenvolver novas habilidades e competências em prol do desenvolvimento profissional e melhor qualidade de código.</p>
+          <p className="text-center">Desenvolvedor Fullstack, prezo pelo qualidade de código e tenho paixão pelo paradigma funcional. Procuro vagas que estimulem meu desenvolvimento como profissional, e prezo por aprender coisas novas e enfrentar novos desafios. Nenhuma tecnologia é um problema e estou disposto a aprender o que for necessário para entregar um produto de qualidade.</p>
         </Col>
       </Row>
       <Row>
         <Col><h2 className="text-center">Competências</h2></Col>
       </Row>
-      <Row className="justify-content-around">
-        <Col md="3" >
-          <ul >
-            <caption>Tecnologias</caption>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-            <li>Sequelize</li>
-            <li>Git / Git Flow</li>
-            <li>JavaScript</li>
-            <li>Typescript</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Vue.js</li>
-            <li>React.js</li>
-          </ul>
-        </Col>
-        <Col className="justify-content-center" md="3">
+        <Row>
+          <Col md="3" >
+            <ul >
+              <caption>Tecnologias Front</caption>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git / Git Flow</li>
+              <li>JavaScript</li>
+              <li>Typescript</li>
+              <li>Express.js</li>
+              <li>Vue.js</li>
+              <li>React.js</li>
+              <li>Apollo Client</li>
+              <li>Next.js</li>
+              <li>Styled Components</li>
+            </ul>
+          </Col>
+          <Col md="3">
+            <ul>
+              <caption>Tecnologias Back</caption>
+              <li>Elixir</li>
+              <li>Phoenix</li>
+              <li>Ecto</li>
+              <li>Node.js</li>
+              <li>Sequelize</li>
+              <li>TypeORM</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </Col>
+        <Col md="3">
           <ul className="">
             <caption>Conhecimentos</caption>
             <li>Inglês [<i>Proeficiente</i>]</li>
             <li>Japonês [<i>Intermediário</i>]</li>
           </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <h2 className='text-center'>Experiência</h2>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <ul>
+          <li>
+            <h3>AoCubo Serviços Imobiliários</h3>
+            <h4>Set/2021 - Mar/2022 (7 meses)</h4>
+            <ul>
+              <li>
+                Participei no desenvolvimento e manunteção de um back-end Elixir utilizando as tecnologias primárias Phoenix, Ecto e Absinthe
+              </li>
+              <li>Participei no desenvolvimento e manuntenção de um front-end Next.js que utilizava primariamente as tecnologias Appolo Client, Styled Components, e Redux</li>
+              <li>Realizei a implementação de testes unitários utilizando a ferramenta ExUnit para que pudesse ser feito um refactor no BackEnd Elixir</li>
+            </ul>
+          </li>
+        </ul>
         </Col>
       </Row>
       <Row>
